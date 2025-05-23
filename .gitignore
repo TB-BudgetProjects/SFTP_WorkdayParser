@@ -1,0 +1,52 @@
+# Sensitive configuration files
+config.ini
+
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Log files
+*.log
+parser_debug_log.txt
+
+# Temporary files
+.temp/
+.tmp/
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Input/output data files
+Workday XML Downloads/*
+Parsed CSVs/*
+!Workday XML Downloads/.gitkeep
+!Parsed CSVs/.gitkeep
+!Parsing Scripts/Parsed CSVs/.gitkeep
+
+# OS specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
