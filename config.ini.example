@@ -1,0 +1,14 @@
+[Paths]
+# Directory paths for the project
+# All paths can be relative to this file's location or absolute
+workday_xml_downloads = Workday XML Downloads/
+parsed_csvs = Parsed CSVs/
+parsing_scripts = Parsing Scripts/
+
+[SFTP]
+# SFTP server connection details
+Hostname = sftp.example.com
+Port = 22
+Username = your_username
+Password = your_password
+# Note: It's recommended to use a more secure method for credentials in production
